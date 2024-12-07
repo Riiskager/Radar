@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{ /*Header styling*/
+    display: flex;
+    background-color: #031838;
+    width: 100%;
+    justify-content: space-between;
+    height: 5%;
+}
+header .liller{
+    display: none;
+}
+
+.venstre{ /*Venstre side styling og spacing*/
+    display: flex;
+
+}
+.højre{
+    display: flex;
+    padding-right: 70px;
+}
+.burger{ /*skubber ikonet ned*/
+    padding-top: 4.5%;
+    padding: 5% 10% 2% 10%;
+}
+.burgermenu{ /*Burger menu styling*/
+    color: #9cc19f;
+    font-size: xx-large;
+    align-self: center;
+}
+.dropdown{ /*drop down styling*/
+    position: absolute;
+    background-color: rgba(156, 193, 159, .9);
+    width: 30%;
+    height: auto;
+    display: none;
+    left:0;
+}
+.dropdown .profil{ /* profil og "log ind" styling*/
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 12%;
+    font-size: x-large;
+    color: #031838;
+}
+.profil i{
+    font-size: xx-large;
+}
+.dropdown .punkter{ /*tekst styling*/
+    font-family: "Merriweather sans", serif;
+    margin: 0 10%;
+}
+.dropdown ul{ /*mere tekst styling*/
+    color: #031838;
+    margin-bottom: 8%;
+    font-size: x-large;
+    padding-left: 10%;
+}
+.dropdown li{ 
+    margin-bottom: 8%;
+}
+.dropdown a{
+    text-decoration: none;
+    color: #031838;
+}
+.dropdown a:hover{ /*Sørger for at linket er tydeligt når man hover*/
+    text-decoration: underline;
+}
+.dropdown .some{ /*Social media styling*/
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    margin: 0 10%;
+    color: #031838;
+}
+
+.dropdown::before{ /*Drop down animation*/
+    position: absolute;
+    animation: slideDown;
+}
+@keyframes slideDown{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.burger i:hover{
+    opacity: 1;
+    transform: all 1s ease;
+}
+.burger:hover .dropdown{
+    display: block;
+}
+
+.søge{ /*Søge ikon styling*/
+    color: #9cc19f;
+    font-size: xx-large;
+    align-self: center;
+    
+}
+.trekant{ /*trekant til dropdown*/
+    color: #9cc19f;
+    font-size: large;
+    align-self: center;
+    padding-left: 35%;
+}
+.forum{ /*Forum text styling og spacing*/
+    font-family: "Merriweather Sans", serif;
+    font-size: x-large;
+    align-self:center ;
+    padding-left: 8%;
+}
+.forum a{
+    text-decoration: none;
+    color:#9cc19f
+}
+
+.logo{ /*Logo re-size*/
+    align-self: center;
+    padding: 4% 2% 4% 0%;
+}
+
+footer{ /*Footer styling*/
+    display: flex;
+    justify-content: space-between;
+    color: #9cc19f;
+    background-color: #031838;
+}
+
+footer .info{
+    font-family: "Merriweather sans", serif;
+    padding-left: 2%;
+    margin: 1% 0 1% 0;
+}
+
+footer .some{
+    font-size: xx-large;
+    padding-right: 2%;
+    margin: 1% 0 1% 0;
+}
+footer a{
+    color: #9cc19f;
+}
+
+@media (max-width: 430px){
+    header .storr{
+        display: none;
+    }
+    header .liller{
+        display: flex;
+    }
+
+    .dropdown{
+        width: 50%
+    }
+
+
+
+}
