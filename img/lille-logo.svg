@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9cc19f;
+      }
+
+      .cls-2 {
+        fill: #031838;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="212" height="212" rx="22.89" ry="22.89"/>
+  <g>
+    <path class="cls-1" d="M96.69,195.61h-61.16V24h61.16v171.61Z"/>
+    <path class="cls-1" d="M181.12,24h-76.68c0,21.03,17.31,38.34,38.34,38.34s38.34-17.31,38.34-38.34Z"/>
+    <path class="cls-1" d="M180.95,122.91h-37.51c0,10.29,8.47,18.76,18.76,18.76s18.76-8.47,18.76-18.76Z"/>
+    <rect class="cls-1" x="106.72" y="122.91" width="34.51" height="72.34"/>
+  </g>
+</svg>

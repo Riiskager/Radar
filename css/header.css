@@ -34,7 +34,7 @@ header .liller{
 .dropdown{ /*drop down styling*/
     position: absolute;
     background-color: rgba(156, 193, 159, .9);
-    width: 30%;
+    width: 40%;
     height: auto;
     display: none;
     left:0;
@@ -160,6 +160,15 @@ footer a{
         width: 50%
     }
 
+    .trekant{
+        display: none;
+    }
 
+    .højre{
+        padding-right: 10%;
+    }
+    .dropdown{
+        width: 100%;
+    }
 
 }
