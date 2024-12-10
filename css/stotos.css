@@ -6,6 +6,7 @@
 }
 
 .infographic img{
+    margin: 5% 0 5% 0;
     max-width: 80%;
 }
 .infographic2{
@@ -25,6 +26,7 @@
     }
     .infographic2 img{
         max-width: 80%;
+        margin: 5% 0 5% 0;
     }
 }
 

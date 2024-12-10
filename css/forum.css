@@ -1,0 +1,12 @@
+@font-face{
+    font-family: storfont;
+    src: url(intrebol.ttf);
+}
+
+.stortekst{
+    background-color: #9cc19f;
+    color: #031838;
+    font-family: storfont;
+    padding: 5% 0 5% 15%;
+    font-size: xx-large;
+}

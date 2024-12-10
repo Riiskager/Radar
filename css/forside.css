@@ -1,3 +1,7 @@
+@font-face{
+    font-family: storfont;
+    src: url(intrebol.ttf);
+}
 :root{
     --blå: #031838;
     --grøn: #9cc19f;
@@ -18,7 +22,7 @@
 .billede img{ /*Billedet var stædig, jeg var stædigere*/
     width: 100%;
     max-height: 100%;
-    transition: 1s ease;
+    transition: 0.3s ease;
 }
 
 
@@ -35,10 +39,14 @@
 }
 
 .tekst{
-    margin: 25px 10px 20px 50px;
+    margin: 25px 10px 40px 50px;
     color:  #9cc19f;
     max-width: auto;
     font-family: var(--font);
+    transition: 0.5s ease;
+}
+.tekst h1{
+    font-family: storfont;
 }
 
 .grid-item:hover{
