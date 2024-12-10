@@ -38,6 +38,7 @@ header .liller{
     height: auto;
     display: none;
     left:0;
+    z-index: 1;
 }
 .dropdown .profil{ /* profil og "log ind" styling*/
     display: flex;
