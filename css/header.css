@@ -23,13 +23,12 @@ header .liller{
     padding-right: 70px;
 }
 .burger{ /*skubber ikonet ned*/
-    padding-top: 4.5%;
-    padding: 5% 10% 2% 10%;
+    padding: 6% 10% 2% 10%;
 }
 .burgermenu{ /*Burger menu styling*/
     color: #9cc19f;
     font-size: xx-large;
-    align-self: center;
+
 }
 .dropdown{ /*drop down styling*/
     position: absolute;
@@ -42,13 +41,23 @@ header .liller{
 }
 .dropdown .profil{ /* profil og "log ind" styling*/
     display: flex;
-    justify-content: space-between;
+    
     margin: 4% 12%;
     font-size: x-large;
     color: #031838;
+    
 }
 .profil i{
     font-size: xx-large;
+    background-color: #031838;
+    color: #9cc19f;
+    padding: 10px 12px;
+    border-radius: 50px;
+    margin: 0 10% 0 10%;
+}
+.profil p{
+    font-family: "Merriweather sans", serif;
+    padding-top: 10px
 }
 .dropdown .punkter{ /*tekst styling*/
     font-family: "Merriweather sans", serif;
@@ -74,7 +83,7 @@ header .liller{
     display: flex;
     font-size: xx-large;
     justify-content: space-between;
-    margin: 0 10%;
+    margin: 0 10% 10% 10%;
     color: #031838;
 }
 
@@ -93,6 +102,7 @@ header .liller{
 .burger i:hover{
     opacity: 1;
     transform: all 1s ease;
+    cursor: pointer;
 }
 .burger:hover .dropdown{
     display: block;
@@ -102,14 +112,9 @@ header .liller{
     color: #9cc19f;
     font-size: xx-large;
     align-self: center;
-    
+    padding-right: 15%;
 }
-.trekant{ /*trekant til dropdown*/
-    color: #9cc19f;
-    font-size: large;
-    align-self: center;
-    padding-left: 35%;
-}
+
 .forum{ /*Forum text styling og spacing*/
     font-family: "Merriweather Sans", serif;
     font-size: x-large;
@@ -119,6 +124,9 @@ header .liller{
 .forum a{
     text-decoration: none;
     color:#9cc19f
+}
+.forum:hover a{
+    text-decoration: underline;
 }
 
 .logo{ /*Logo re-size*/

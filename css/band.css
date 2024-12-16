@@ -1,0 +1,112 @@
+@font-face{
+    font-family: storfont;
+    src: url(intrebol.ttf);
+}
+
+.artikel{ /*Artikel + billede styling*/
+    background-color:  #9cc19f;
+    color: #031838;
+    width: 78%;
+    
+}
+
+.artikel article{ /*Text styling indenfor */
+    text-align: justify;
+    width: 75%;
+    padding-left: 10%;
+}
+.artikel article h1{ /*Styling af overskrift*/
+    font-family: storfont;
+    padding: 2% 0 4% 0;
+}
+
+.artikel article p{ /*styling af paragraph*/
+    padding-bottom: 5%;
+    font-family: "Merriweather sans", serif;
+}
+
+
+.sidelinje{ /*Bandlistens styling over-all*/
+    width: 22%;
+    background-color: #031838;
+    color: #9cc19f;
+    padding: 2%;
+}
+
+.sidelinje .tekst{ /*Padding mellem*/
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+main{ /*Flexer hhv. billede og tekst*/
+    display: flex;
+}
+
+.bandliste{ /*Styler selve titlen i hjørnet*/
+    font-family: "Merriweather Sans", serif;
+    font-size: x-large;
+    align-self:center ;
+    padding-left: 8%;
+    color: #9cc19f;
+    background-color: transparent;
+    
+}
+
+.kempetrekant{
+    position: absolute;
+    top: 427px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform:rotate(90deg);
+    border-width: 50px 50px 0px 0px; /* Juster størrelsen på trekanten */
+    border-color: transparent #9cc19f transparent transparent;
+}
+
+.stortrekant{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform:rotate(90deg);
+    border-width: 50px 50px 0px 0px; /* Juster størrelsen på trekanten */
+    border-color: transparent #ffff transparent transparent;
+}
+
+footer .info{
+    padding: 4% 0;
+}
+
+.titel{
+    font-family: storfont;
+    font-size: xx-large;
+    padding-bottom: 20px;
+    background-color: #9cc19f;
+    color: #031838;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+   .sidelinje{
+        display: grid;
+        grid-template-columns: auto;
+        width: 80%;
+        padding: 15% 10%;
+   }
+   main{
+    display: block;
+   }
+   .artikel{
+        width: 100%;
+   }
+}
+
+@media (max-width: 430px){
+    .sidelinje{
+        grid-template-columns: auto;
+    }
+}
