@@ -51,7 +51,7 @@ main{ /*Flexer hhv. billede og tekst*/
     
 }
 
-.kempetrekant{
+.kempetrekant{ /*Forsøg på at rette trekant ind ved billede*/
     position: absolute;
     top: 427px;
     left: 0;
@@ -63,24 +63,15 @@ main{ /*Flexer hhv. billede og tekst*/
     border-color: transparent #9cc19f transparent transparent;
 }
 
-.stortrekant{
+.stortrekant{ /*Darling killed*/
     display: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    transform:rotate(90deg);
-    border-width: 50px 50px 0px 0px; /* Juster størrelsen på trekanten */
-    border-color: transparent #ffff transparent transparent;
 }
 
-footer .info{
+footer .info{ /*Af en eller anden årsag så ændrede footer sig, så det blev rettet*/
     padding: 4% 0;
 }
 
-.titel{
+.titel{ /*Styling af overskrift*/
     font-family: storfont;
     font-size: xx-large;
     padding-bottom: 20px;
@@ -90,7 +81,7 @@ footer .info{
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*breakpoint på tablet, sørger for at display block elementer i main, og styling derefter*/
    .sidelinje{
         display: grid;
         grid-template-columns: auto;

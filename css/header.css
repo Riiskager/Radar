@@ -10,7 +10,7 @@ header{ /*Header styling*/
     justify-content: space-between;
     height: 5%;
 }
-header .liller{
+header .liller{ /*Fjerner lille logo generelt*/
     display: none;
 }
 
@@ -18,7 +18,7 @@ header .liller{
     display: flex;
 
 }
-.højre{
+.højre{ /*placering af elementer i højre side*/
     display: flex;
     padding-right: 70px;
 }
@@ -47,7 +47,7 @@ header .liller{
     color: #031838;
     
 }
-.profil i{
+.profil i{ /*Styler ikonet*/
     font-size: xx-large;
     background-color: #031838;
     color: #9cc19f;
@@ -55,7 +55,7 @@ header .liller{
     border-radius: 50px;
     margin: 0 10% 0 10%;
 }
-.profil p{
+.profil p{ /*Styler punkter*/
     font-family: "Merriweather sans", serif;
     padding-top: 10px
 }
@@ -69,10 +69,10 @@ header .liller{
     font-size: x-large;
     padding-left: 10%;
 }
-.dropdown li{ 
+.dropdown li{ /*Placering af ikoner*/
     margin-bottom: 8%;
 }
-.dropdown a{
+.dropdown a{ /*Fjerner linjer og retter farve*/
     text-decoration: none;
     color: #031838;
 }
@@ -99,11 +99,10 @@ header .liller{
         opacity: 1;
     }
 }
-.burger i:hover{
-    opacity: 1;
+.burger i:hover{ /*ændrer mus ved hover*/
     cursor: pointer;
 }
-.burger:hover .dropdown{
+.burger:hover .dropdown{ /*Displayer på hover*/
     display: block;
 }
 
@@ -120,11 +119,11 @@ header .liller{
     align-self:center ;
     padding-left: 8%;
 }
-.forum a{
+.forum a{ /*Styling af forum knap*/
     text-decoration: none;
     color:#9cc19f
 }
-.forum:hover a{
+.forum:hover a{ /*Tilføjer linje under når man hover over Forum*/
     text-decoration: underline;
 }
 
@@ -140,22 +139,22 @@ footer{ /*Footer styling*/
     background-color: #031838;
 }
 
-footer .info{
+footer .info{ /*Footer styling*/
     font-family: "Merriweather sans", serif;
     padding-left: 2%;
     margin: 1% 0 1% 0;
 }
 
-footer .some{
+footer .some{ /*ikon stling*/
     font-size: xx-large;
     padding-right: 2%;
     margin: 1% 0 1% 0;
 }
-footer a{
+footer a{ /*Ikon styling*/
     color: #9cc19f;
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px){ /*Breakpoint, fjerner stort logo, viser lille logo, ændrer generelle elementer til størrelse*/
     header .storr{
         display: none;
     }
@@ -165,10 +164,6 @@ footer a{
 
     .dropdown{
         width: 50%
-    }
-
-    .trekant{
-        display: none;
     }
 
     .højre{
