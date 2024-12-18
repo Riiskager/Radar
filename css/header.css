@@ -101,7 +101,6 @@ header .liller{
 }
 .burger i:hover{
     opacity: 1;
-    transform: all 1s ease;
     cursor: pointer;
 }
 .burger:hover .dropdown{
